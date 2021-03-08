@@ -81,8 +81,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  \textbf{\href{http://pythinker.github.io/}{\Large Mostafa Ghorbandoost}} & Email : \href{mailto:mos.ghorbandoost@gmail.com}{mos.ghorbandoost@gmail.com}\\
+  \href{http://pythinker.github.io}{http://pythinker.github.io} & Mobile : +98-912-483-4693 \\
 \end{tabular*}
 
 

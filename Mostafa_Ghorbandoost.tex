@@ -1,0 +1,290 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{flushleft}{\LARGE \bf Mostafa Ghorbandoost}
+\end{flushleft}
+\vspace{-10pt}
+\noindent{\rule{\linewidth}{0.4pt}}
+
+\vspace{3pt}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  Personal Website : \href{http://pythinker.github.io}{http://pythinker.github.io} \hspace{126pt} Email : {mos.ghorbandoost@gmail.com}\\
+  Professional Links : \href{https://scholar.google.com/citations?user=A27Kck0AAAAJ}{Google Scholar} / \href{https://www.linkedin.com/in/mostafa-ghorbandoost-2b92b378/}{LinkedIn} / \href{https://github.com/pythinker}{GitHub}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {M.Sc. in Electrical Engineering, Communication Systems}{Sep. 2011 -- Oct. 2013}
+      {School of Electrical Engineering, Amirkabir University of Technology}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Thesis}
+          {Reducing the Number of Training Sentences in Parallel Voice Conversion ...}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {B.Sc. in Electrical Engineering, Electronics}{Sep. 2007 -- Sep. 2011}
+      {School of Electrical Engineering, Amirkabir University of Technology}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Thesis}
+          {Design and Implementation of a 10 Mbps Modulator}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\justify
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Scientist \& ML Researcher}{Dec. 2020 - Present}
+      {\href{https://bama.ir}{Bama.ir}}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Used Cars Price Estimation}
+          {Used a car's age, mileage, body status and other attributes (about 10 in total) as input and its estimated price as output to build various regression models}
+        \resumeItem{Django Web Application}
+          {Developed a Django App alongside Nginx web server to offer Used Cars Price Estimation as a service to customers}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Machine Learning Researcher}{Sep. 2017 - Present}
+      {\href{https://www.mapnagroup.com/en}{MAPNA Group}}{Karaj, Iran}
+      \resumeItemListStart
+        \resumeItem{Representation Learning}
+          {Used probabilistic methods to obtain meaningful and disentangled representations of power plant's high dimensional sensor data for visualization and further processing}
+        \resumeItem{Variational Inference}
+          {Elaborated variational and reparameterization techniques to train modern deep probabilistic autoencoders to model high dimensional data}
+        \resumeItem{Anomaly Detection}
+          {Utilized Variational AutoEncoders to distinguish normal behavior of a power plant from its faulty behavior to prevent unpredictable breakdowns}
+        \resumeItem{Anomaly Generation}
+          {Designed an anomaly generation system based on Variational AutoEncoders and used it to evaluate anomaly detection and fault classification models}                    
+        \resumeItem{Domain Adaptation}
+          {Employed Domain Adversarial Neural Networks and Domain Invariant Variational AutoEncoders to adapt trained models to work with new plants}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Natural Language Processing Researcher}{May. 2017 - Sep. 2017}
+      {\href{https://nuemd.com/}{NueMD (Remote)}}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Multi-label Text Classification}
+          {Used Long Short-Term Memory (LSTM) networks and deep learning techniques to classify medical texts for Automated Medical Coding task}
+        \resumeItem{Word Embedding}
+          {Trained Skip-Gram and CBOW embeddings on thousands of medical texts to better suit the medical applications than pre-trained word2vecs}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Digital Designer}{Oct. 2016 - May. 2017}
+      {\href{http://www.fananet.com/indexEn.html}{FANA. Co.}}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Forward Error Correction}
+          {Implemented Reed-Solomon error correction for Optical Transform Network to enhance the effective range of transmission using Verilog and Altera Stratix-V FPGAs}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Machine Learning Practitioner}{Mar. 2016 - Oct. 2016}
+      {Freelancing}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Human Gesture Recognition}
+          {Classified sequences of 12 gestures captured through Microsoft Kinect using left-to-right Hidden Markov Models with high accuracy}
+        \resumeItem{Speaker Verification}
+          {Authenticated the identity of a person through his voice using speech spectral features and Universal Background Model which is a particular type of GMM}
+      \resumeItemListEnd
+
+\newpage
+
+    \resumeSubheading
+      {Machine Learning Researcher}{Sep. 2012 - Jan. 2015}
+      {Multimedia Signal Processing Research Lab at Amirkabir University of Technology}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Voice Conversion}
+          {Used a variety of probabilistic and Bayesian regression techniques to change a speaker's identity to mimic another speaker without changing the language contents of his utterances}
+        \resumeItem{Mixture Density Networks}
+          {Employed a variety of mixture models from Gaussian Mixture Regression to Mixture Density Networks to better capture the multi-modal nature of speech signal while doing regression}
+        \resumeItem{Dynamic Bayesian Networks}
+          {Deployed dynamic linear Gaussian models (Inference by Kalman filtering) as a powerful form of DBNs to model sequential relationships in speech and convert it without loss of continuity}
+        \resumeItem{Ensemble Learning}
+          {Alleviated the high variance problem (over-fitting) of regression with a low amount of training data (only 10 utterances) using Random Forest without loss of converted speech quality}
+        \resumeItem{Speech Analysis/Synthesis}
+          {Extracted and modified low-dimensional representative features (MFCC, LSF, MCC) from high-dimensional speech spectrum for the voice conversion task}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Awards and Honors-----------------
+\section{Awards and Honors}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ranked 177 among 96,000 Data Scientists}{Mar. 2021}
+      {Data Science Q\&A website; User name: \href{https://datascience.stackexchange.com/users/51209/pythinker}{pythinker}} {\href{https://stackexchange.com/leagues/557/alltime}{Stack Exchange}}
+    \resumeSubheading
+      {Winner of Bronze Medal}{Sep. 2006}
+      {National Physics Olympiad}{Tehran, Iran}
+  \resumeSubHeadingListEnd
+
+%-----------Professional Development-----------------
+\section{Professional Training}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Power Plant Performance Efficiency \& Optimization}{Feb. 2020}
+      {\href{https://www.linkedin.com/in/mec-consulting-llc-a739371a0/?originalSubdomain=ae}{Merim Engineering Consulting L.L.C}} {Dubai, UAE}
+    \resumeSubheading
+      {Python for Data Science course}{Dec. 2018}
+      {\href{https://laitec.ir/}{Laitec Training Center}}{Tehran, Iran}
+    \resumeSubheading
+      {Linux LPIC1 course}{June. 2018}
+      {\href{https://www.lpi.org/our-certifications/lpic-1-overview}{Anisa Training Center}}{Tehran, Iran}      
+  \resumeSubHeadingListEnd
+
+%-----------Programming Skills-----------------
+\section{Software Skills}
+
+\begin{table}[h!]
+  \begin{center}
+    \label{tab:table1}
+    \begin{tabular}{c|c|c|c}
+      Main Operating Systems \hspace{5pt} & \hspace{5pt} Programming Languages \hspace{5pt} & \hspace{5pt} Documentation tools \hspace{5pt} & \hspace{5pt} Vesrion Control \\
+      \hline
+      Linux / MS Windows & Python / C++ / MATLAB & LaTeX / Markdown & Git / GitHub \\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\vspace{-20pt}
+
+\begin{table}[h!]
+  \begin{center}
+    \label{tab:table1}
+    \begin{tabular}{c|c|c|c}
+      Deep Learning Libraries \hspace{5pt} & \hspace{5pt} Machine Learning Libraries \hspace{5pt} & \hspace{5pt} Data Science Libraries \hspace{5pt} & \hspace{5pt} Plotting Libraries \hspace{5pt} \\
+      \hline
+      TensorFlow / Keras & Scikit-learn / Stats-models & Pandas / Numpy & Matplotlib / Plotly \\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\vspace{-20pt}
+
+\begin{table}[h!]
+  \begin{center}
+    \label{tab:table1}
+    \begin{tabular}{c|c|c|c}
+      Web App Development \hspace{5pt} & \hspace{5pt} Database Systems \& Tools \hspace{5pt} & \hspace{5pt} Data warehouse \hspace{5pt} & \hspace{5pt} Teamworking Tools \hspace{5pt} \\
+      \hline
+      Django / Nginx & SQL Server / SSMS &  ETL / SSIS & Trello / Slack \\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\vspace{-20pt}
+
+%-----------JOURNALS-----------------
+\section{Journal publications}
+%\begin{enumerate}[noitemsep, leftmargin=*,label={[J\arabic*]}]
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{\textbf{Mostafa Ghorbandoost}, Valiallah Saba, ``Non-parallel training for voice conversion using background-based alignment of GMMs and INCA algorithm", IET Signal Processing 11.8, pp. 998-1005. \textbf{IEEE}, 2017. \href{https://ieeexplore.ieee.org/document/8056552}{link}}
+\vspace{5pt}
+\item{\textbf{Mostafa Ghorbandoost}, Abolghasem Sayadiyan, Mohsen Ahangar, Hamid Sheikhzadeh, Abdoreza Sabzi Shahrebabaki, Jamal Amini, ``Voice conversion based on feature combination with limited training data", Speech Communication 67, pp. 113-128. \textbf{Elsevier}, 2015. \href{https://www.sciencedirect.com/science/article/abs/pii/S0167639314000892}{link}}
+\end{enumerate}
+
+\section{Conference Proceedings}
+%\begin{enumerate}[noitemsep, leftmargin=*,label={[J\arabic*]}]
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Mohsen Ahangar, \textbf{Mostafa Ghorbandoost}, Sudhendu Sharma, Mark JT Smith, ``Voice conversion based on a mixture density network", IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, New Paltz, NY, \textbf{USA}, 2017. \href{https://ieeexplore.ieee.org/document/8170049}{link}}
+\vspace{5pt}
+\item{Mohsen Ahangar, \textbf{Mostafa Ghorbandoost}, Hamid Sheikhzadeh, Kaamran Raahemifar, Abdoreza Sabzi Shahrebabaki, Jamal Amini, ``Voice conversion based on state space model and considering global variance", IEEE International Symposium on Signal Processing and Information Technology, Athens, \textbf{Greece}, 2013. \href{https://ieeexplore.ieee.org/document/6781917}{link}}
+\vspace{-7pt}
+\item{Abdoreza Sabzi Shahrebabaki, Jamal Amini, Hamid Sheikhzadeh, \textbf{Mostafa Ghorbandoost}, Neda Faraji, ``Reduced Search Space Frame Alignment Based on Kullback-Leibler Divergence for Voice Conversion", International Conference on Nonlinear Speech Processing, Mons, \textbf{Belgium}, 2013. \href{https://link.springer.com/chapter/10.1007/978-3-642-38847-7_11}{link}}
+\end{enumerate}
+%-------------------------------------------
+
+\end{document}
