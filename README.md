@@ -1,10 +1,11 @@
 What is this repo?
+--------------------------------------------------------
 This repo contains my resume which is based on LaTeX.
 
 How to add references?
+--------------------------------------------------------
 Add this code chunk to the end of the .tex file:
 ```
-%-----------References-----------------
 \section{References}
   \resumeSubHeadingListStart
 
@@ -21,5 +22,4 @@ Add this code chunk to the end of the .tex file:
       {Reference2's Title}{{Reference2's Location}}
 
   \resumeSubHeadingListEnd
-%-------------------------------------------
 ```
