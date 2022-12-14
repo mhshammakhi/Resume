@@ -18,8 +18,8 @@ Add this code chunk to the end of the .tex file:
       {Reference2's Title}{{Reference2's Location}}
 
     \resumeSubheading
-      {Reference2's Name}{Reference2's Email Address}
-      {Reference2's Title}{{Reference2's Location}}
+      {Reference3's Name}{Reference3's Email Address}
+      {Reference3's Title}{{Reference3's Location}}
 
   \resumeSubHeadingListEnd
 ```
