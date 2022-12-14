@@ -10,16 +10,16 @@ Add this code chunk to the end of the .tex file:
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Reference1's Name}{Reference1's Email Address}
-      {Reference1's Title}{{Reference1's Location}}
+      {Reference1's name}{Reference1's email address}
+      {Reference1's title}{{Reference1's location}}
 
     \resumeSubheading
-      {Reference2's Name}{Reference2's Email Address}
-      {Reference2's Title}{{Reference2's Location}}
+      {Reference2's name}{Reference2's email address}
+      {Reference2's title}{{Reference2's location}}
 
     \resumeSubheading
-      {Reference3's Name}{Reference3's Email Address}
-      {Reference3's Title}{{Reference3's Location}}
+      {Reference3's name}{Reference3's email address}
+      {Reference3's title}{{Reference3's location}}
 
   \resumeSubHeadingListEnd
 ```
