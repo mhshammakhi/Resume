@@ -1,6 +1,7 @@
 What is this repo?
 --------------------------------------------------------
 This repo contains my resume which is based on LaTeX.
+This template is ATS-friendly, ensuring compatibility with automated applicant tracking systems. This feature is crucial as many large companies utilize ATS for initial CV screening before human review.
 
 How to add references?
 --------------------------------------------------------
